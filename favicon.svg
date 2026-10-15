@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0b1a33"/>
+  <!-- Blueprint grid -->
+  <path d="M0 16h64M0 32h64M0 48h64M16 0v64M32 0v64M48 0v64" stroke="#7fb2f0" stroke-width="0.75" stroke-opacity="0.25"/>
+  <!-- Outer border -->
+  <rect x="5.5" y="5.5" width="53" height="53" rx="8" fill="none" stroke="#7fb2f0" stroke-width="1.5" stroke-opacity="0.8"/>
+  <!-- Corner marks -->
+  <path d="M5.5 14h6M14 5.5v6M58.5 14h-6M50 5.5v6M5.5 50h6M14 58.5v-6M58.5 50h-6M50 58.5v-6" stroke="#ff7a3d" stroke-width="2"/>
+  <!-- Center tech monogram BS -->
+  <text x="32" y="39" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="700" font-size="22" fill="#f2efe6" letter-spacing="-0.05em">BS</text>
+  <!-- Reticle accent dot -->
+  <circle cx="49" cy="15" r="2.5" fill="#ff7a3d"/>
+</svg>
