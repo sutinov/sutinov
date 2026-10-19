@@ -68,18 +68,3 @@ python -m http.server 8080
 ```
 
 Then visit [http://localhost:8080](http://localhost:8080).
-
----
-
-## How to Deploy to GitHub Pages
-
-1. Push this directory or repository to GitHub (e.g. `blagojsutinov/blagojsutinov.github.io` or repository branch `gh-pages`).
-2. In your repository on GitHub, go to **Settings** → **Pages**.
-3. Under **Build and deployment** > **Source**, choose **Deploy from a branch** and select `main` (or `/root` or `/docs` if placed in docs).
-4. Your website will be live at `https://<your-username>.github.io/`!
-
----
-
-## How to Update Your CV Details
-
-All profile text, experience entries, side projects, education, and skills are stored cleanly in [js/data.js](js/data.js). Simply edit that file to change any details.
